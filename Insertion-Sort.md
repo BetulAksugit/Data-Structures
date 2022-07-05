@@ -9,14 +9,17 @@
 
 * Dizinin ilk iki elemanı sıralamada karşılaştırılır.
 Burada 27, 22'den büyüktür. Her iki öge de artan sırada görünüyor. Herhangi bir değişiklik olmayacak.
+
 |2.Adım|22|27|16|2|18|6|     
 |------|- |- |- |-|- |-|
 
 * Daha sonra 16 ile 27'yi karşılaştırırız. 16 27'den küçüktür ve sıralı değildir. O yüzden yer değiştiririz. Ardından 16'yı tekrar 22 ile karşılaştırırız ve yine 16 yine 22'den küçüktür.Bu sebeple en başa yazarız.
+
 |3.Adım|22|16|27|2|18|6|-->|16|22|27|2|18|6| 
 |------|- |- |- |-|- |-|----|- |- |- |-|- |-|
 
 * 2 ile bir gerisindeki sayıyı karşılaştırırız. Sıralı değil, yer değiştiririz. Bunu gerisindeki tüm sayılar için yaparız. 
+
 |4.Adım|16|22|2|27|18|6|-->|16|2|22|27|18|6| 
 |------|- |- |- |-|- |-|--|- |- |- |-|- |-|
 
@@ -24,10 +27,12 @@ Burada 27, 22'den büyüktür. Her iki öge de artan sırada görünüyor. Herha
 |-|- |- |- |-|- |-|
 
 * 18 ile bir önceki sayıyı kıyaslarız. 18 27'den küçüktür. 27 ile yer değiştiririz. 22 ile 18'i karşılaştırırız. 18 yine küçüktür yer değiştiririz. 16 ile karşılaştırdığımızda doğru artan sırada görünüyor, dolayısıyla değişiklik yapmayız.
+
 |5.Adım|2|16|22|18|27|6|-->|2|16|18|22|27|6|
 |------|- |- |- |-|- |-|---|- |- |- |-|- |-|
 
 * 6 ile bir öncesindeki sayıyı karşılaştırırız ve bunu 6 doğru artan sıraya gelene kadar sıralarız. Sonuç olarak;
+
 |6.Adım|2|16|18|22|6|27|-->|2|16|18|6|22|27|
 |------|- |- |- |-|- |-|-------|- |- |- |-|- |-|
 
