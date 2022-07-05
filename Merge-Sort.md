@@ -7,7 +7,6 @@
 
 * İlk olarak tek eleman kalana kadar diziyi 2'ye bölelim.
 
- 
 |  |  |  |16|21|11|8 |12|22|  |  |  |
 |  |  |  |  |  |  |  |  |  |  |  |  |
 |  |  |16|21|11|  |  |8 |12|22|  |  |
